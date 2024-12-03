@@ -6,7 +6,7 @@ const styling = {
 }
 function App() {
   return (
-    <h1 style={styling}>HEYYYY</h1>
+    <h1 style={styling}>HEYYYYyyy</h1>
   )
 }
 export default App
