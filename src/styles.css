@@ -1,0 +1,11 @@
+.eu{
+    color: rebeccapurple;
+    height: 20px;
+    width: 70;
+}
+.imgs {
+    padding: 10px;
+    height: 300px;
+    width : 300px;
+    object-fit: contain;
+}
