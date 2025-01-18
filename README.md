@@ -86,3 +86,10 @@ docker push yourusername/simple-calculator
 Pull and Reuse the Image
 docker pull yourusername/simple-calculator
 docker run yourusername/simple-calculator
+
+
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+
+FROM tomcat:9-jdk11
+COPY target/*.war /usr/local/tomcat/webapps/
